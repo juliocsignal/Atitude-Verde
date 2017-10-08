@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Schoolbell);
+
+
+body {
+    font-family: 'Schoolbell', cursive;
+    display: block;
+    background-color: #c2fd9f;
+	background-repeat: repeat-x;
+	
+	
+
+}
+
+div#texto {
+	margin: 10px;
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+p {
+    text-indent: 35px;
+	text-align: justify;
+}
+
+p#noindent {
+    text-indent: 0px;
+    text-align: justify;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2, h3, h4, h5 {
+	margin-left: 20px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+}
+
+a#objet {
+    margin-left: 10px;
+}
+
+header#titulo img#logo {
+	margin-top: 0px;
+	margin-bottom: -91px;
+}
+
+nav  {
+   display: inline-block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 94px ;
+    left: -10px;
+}
+
+nav li {
+	display: block;
+    background-color: white;
+    padding: 20px;
+    margin-right: 6px;
+	margin-top: 0px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+	text-align: center;
+	font-weight: bold;
+}
+
+nav li:hover {
+    background-color: #9fdc7b;
+    transition: .5s;
+}
+
+nav li a {
+    font-size: 13pt;
+    text-decoration: none;
+    color: #659548;
+	
+}
+
+img#logo {
+	margin-left: 384px;
+	margin-top: 20px;
+	margin-bottom: -102px;
+	display: block;
+}
+
+nav li a:hover {
+	color: white;
+}
+
+
+article.conteudo {
+    display: block;
+    background-color: white ;
+    margin: 80px 20px 10px 200px;
+    padding: 3px 0px 3px 10px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+
+article.conteudo h1 {
+    font-size: 19pt;
+    background-color: #9fdc7b ;
+    padding: 5px;
+    text-align: justify;
+    text-indent: each-line;
+}
+
+article.conteudo h1:hover {
+    background-color: #c2fd9f ;
+    transition: .5s;
+
+}
+
+#slider{
+        width:980px;
+        margin-left: 55px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+            
+    }
+
+a#id {
+    
+    
+}
+
+article.conteudo img#frenteescola {
+    margin: 10px;
+    width: 380px;
+    height: 238px;
+    border: 8px solid #9fdc7b ;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3);
+}
+
+article.conteudo img#frenteescola:hover {
+    border: 8px solid #c2fd9f;
+    transition: 1s;
+}
+
+article.conteudo p {
+	margin-left: 15px;
+	margin-right: 30px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+
+footer.rodape {
+    text-align: center;
+    color: #1b350b;
+}
+
+footer.rodape a {
+    color: #1b350b;
+    text-decoration: none;
+}
+
+footer.rodape a:hover {
+    text-decoration: underline;
+}
+
+footer.redes  {
+    text-align: center;
+    color: #1b350b;
+}
+
+footer.redes a {
+    color: #1b350b;
+    text-decoration: none;
+}
+
+footer.redes a:hover {
+    text-decoration: underline;
+}
+
